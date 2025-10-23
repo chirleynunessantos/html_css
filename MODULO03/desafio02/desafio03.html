@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 300px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            border: 1px solid black;
+            padding: 8px;
+            background-color: rgba(0, 0, 0, 0.479);
+            font-weight: bolder;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <tr>
+            <thead>
+                <tr>
+
+                    <th scope="col">Grupo</th>
+                    <th scope="col">Nomes</th>
+                    <th scope="colgroup" colspan="3">filmes</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="4">Total</th>
+                    <td >1000</td>
+                </tr>
+            </tfoot>
+            <th scope="rowgroup" rowspan="3">Mulheres</th>
+            <td>ANA</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+        </tr>
+        <tr>
+            <td>ANA</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+
+        </tr>
+        <tr>
+            <td>ANA</td>
+            <td>Alien</td>
+            <td>Rambo</td>
+            <td>Vingadores</td>
+
+        </tr>
+
+
+        <tr>
+            <th scope="rowgroup" rowspan="3">Homens</th>
+            <td>Bruno</td>
+            <td>Intocaveis</td>
+            <td>Smnesia</td>
+            <td>Gladiador</td>
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>Intocaveis</td>
+            <td>Smnesia</td>
+            <td>Gladiador</td>
+
+        </tr>
+        <tr>
+            <td>Bruno</td>
+            <td>Intocaveis</td>
+            <td>Smnesia</td>
+            <td>Gladiador</td>
+
+        </tr>
+    </table>
+
+</body>
+
+</html>
